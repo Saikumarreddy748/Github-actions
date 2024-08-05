@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-python:
-    runs-on: [self-hosted, linux, enterprise]
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
